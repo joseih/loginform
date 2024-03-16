@@ -3,5 +3,80 @@
   src: url("fonts\\Roboto-Regular.woff2");
 }
 * {
+  margin: 0;
+  padding: 0;
   font-family: Roboto;
+  color: rgb(64, 72, 84);
+}
+li {
+  list-style: none;
+  margin: 5px 0px 5px 0;
+}
+label {
+  font-size: 0.7em;
+}
+button {
+  background-color: #596d48;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 40px;
+  box-shadow: 0px 2px 2px 0px rgb(165, 165, 165);
+}
+button:hover {
+  background-color: #37442c;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #6b7761;
+}
+a:hover {
+  color: #37442c;
+  cursor: pointer;
+}
+
+#father-container {
+  display: flex;
+}
+
+#left-container img {
+  width: 35vw;
+  height: 100vh;
+}
+
+#right-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(249, 250, 251);
+}
+
+#phrase-container,
+#form-container,
+#submit-container {
+  padding-left: 40px;
+  padding-right: 100px;
+  background-color: rgb(249, 250, 251);
+}
+
+#phrase-container {
+  padding-top: 100px;
+  font-weight: 300;
+}
+#phrase-container li,
+#submit-container li {
+  margin: 20px 0 20px 0;
+}
+
+fieldset {
+  display: flex;
+  gap: 10%;
+  border: 0;
+}
+#form-container {
+  margin: 20px 0 20px 0;
+  padding: 10px 0px 30px 40px;
+  background-color: white;
+  box-shadow: 0px 5px 5px 0px rgb(201, 200, 200);
 }
