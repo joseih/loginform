@@ -42,12 +42,31 @@ a:hover {
   display: flex;
 }
 
-#left-container img {
-  width: 35vw;
+#left-container {
+  width: 40vw;
   height: 100vh;
+  background-image: url(images/green.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#left-container * {
+  color: white;
+}
+#left-container > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 #right-container {
+  width: 60vw;
   display: flex;
   flex-direction: column;
   background-color: rgb(249, 250, 251);
