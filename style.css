@@ -15,15 +15,16 @@ li {
 label {
   font-size: 0.7em;
 }
-button {
+input[type="submit"] {
   background-color: #596d48;
   color: white;
   border: 0;
   border-radius: 5px;
-  padding: 10px 40px;
+  width: 150px;
+  height: 40px;
   box-shadow: 0px 2px 2px 0px rgb(165, 165, 165);
 }
-button:hover {
+input[type="submit"]:hover {
   background-color: #37442c;
   cursor: pointer;
 }
@@ -74,9 +75,29 @@ fieldset {
   gap: 10%;
   border: 0;
 }
+
 #form-container {
   margin: 20px 0 20px 0;
   padding: 10px 0px 30px 40px;
   background-color: white;
   box-shadow: 0px 5px 5px 0px rgb(201, 200, 200);
+}
+input {
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid rgb(201, 200, 200);
+}
+input:focus {
+  border: 1px solid blue;
+  box-shadow: 0 3px 3px 0 rgb(201, 200, 200);
+  outline: none;
+}
+
+.error {
+  border: 1px solid red;
+}
+.errorText {
+  color: red;
+  font-size: 0.6em;
+  display: block;
 }

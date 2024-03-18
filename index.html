@@ -31,37 +31,39 @@
               <div>
                 <ul>
                   <li><label for="first-name">FIRST NAME</label></li>
-                  <li><input type="text" id="first-name" /></li>
+                  <li><input type="text" id="first-name" required /></li>
 
                   <li><label for="email">E-MAIL</label></li>
-                  <li><input type="email" id="email" /></li>
+                  <li><input type="email" id="email" required /></li>
 
                   <li><label for="password">PASSWORD</label></li>
-                  <li><input type="password" id="password" /></li>
+                  <li id="listPass"><input type="password" id="password" required /></li>
                 </ul>
               </div>
               <div>
                 <ul>
                   <li><label for="last-name">LAST NAME</label></li>
-                  <li><input type="text" id="last-name" /></li>
+                  <li><input type="text" id="last-name" required /></li>
 
                   <li><label for="phone-number">PHONE NUMBER</label></li>
-                  <li><input type="tel" id="phone-number" /></li>
+                  <li><input type="tel" id="phone-number" required /></li>
 
                   <li><label for="confirm-pass">CONFIRM PASSWORD</label></li>
-                  <li><input type="password" id="confirm-pass" /></li>
+                  <li><input type="password" id="confirm-pass" required /></li>
                 </ul>
               </div>
             </fieldset>
-          </form>
+          
         </div>
         <div id="submit-container">
           <ul>
-            <li><button>Create Account</button></li>
+            <li><input type="submit" value="Create Account" id="submit"/></li>
+          </form>
             <li>Already have account? <a href="#">Log in</a></li>
           </ul>
         </div>
       </div>
     </div>
+    <script src="javascript.js"></script>
   </body>
 </html>
